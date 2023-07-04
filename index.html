@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PIPE BANK</title>
+  <link rel="stylesheet" href="style.css"  >
+</head>
+<body>
+  
+  <h1>PIPE BANK</h1>
+
+  <div class="input-container">
+    <label for="username">Usuario:</label>
+    <input type="text" id="username" />
+  </div>
+  
+  <div class="input-container">
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" />
+  </div>
+  
+  <button id="btnLogin">Iniciar Sesión</button>
+  
+  <label for="deposito">Cantidad a depositar:</label>
+  <input type="number" id="deposito" />
+  <button onclick="depositar()">Depositar</button>
+  
+  <label for="retiro">Cantidad a retirar:</label>
+  <input type="number" id="retiro" />
+  <button onclick="retirar()">Retirar</button>
+  
+  <button onclick="verSaldo()">Ver Saldo</button>
+  
+ <script src="app.js"></script>
+</body>
+</html>
